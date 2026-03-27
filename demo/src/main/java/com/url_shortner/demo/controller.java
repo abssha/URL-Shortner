@@ -10,4 +10,8 @@ public class controller {
     public controller(UrlService service) {
         this.service = service;
     }
+
+    public  UrlService getService() {
+        return service;
+    }
 }
